@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./categories.styles.scss"
 
 function App() {
@@ -45,5 +46,48 @@ function App() {
     </div >
   );
 }
+=======
+const App = () => {
+  return (
+    <div className='categories-container'>
+      <div className='category-container'>
+        {/* <img /> */}
+        <div className='category-body-container'>
+          <h2>Hats</h2>
+          <p>Shop Now</p>
+        </div>
+      </div>
+      <div className='category-container'>
+        {/* <img /> */}
+        <div className='category-body-container'>
+          <h2>Jackets</h2>
+          <p>Shop Now</p>
+        </div>
+      </div>
+      <div className='category-container'>
+        {/* <img /> */}
+        <div className='category-body-container'>
+          <h2>Sneakers</h2>
+          <p>Shop Now</p>
+        </div>
+      </div>
+      <div className='category-container'>
+        {/* <img /> */}
+        <div className='category-body-container'>
+          <h2>Womens</h2>
+          <p>Shop Now</p>
+        </div>
+      </div>
+      <div className='category-container'>
+        {/* <img /> */}
+        <div className='category-body-container'>
+          <h2>Mens</h2>
+          <p>Shop Now</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+>>>>>>> 184cf44a2eec2499b032099a6a5b782aafbe99a3
 
 export default App;
